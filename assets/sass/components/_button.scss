@@ -105,6 +105,12 @@
 					}
 				}
 			}
+
+			&.call {
+				box-shadow: none;
+				border: 2px solid _palette(fg);
+				text-transform: capitalize !important;
+			}
 		}
 	}
 

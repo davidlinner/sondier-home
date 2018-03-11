@@ -1329,6 +1329,14 @@ button,
     button.special.icon:before,
     .button.special.icon:before {
       color: #ffffff !important; }
+  input[type="submit"].call,
+  input[type="reset"].call,
+  input[type="button"].call,
+  button.call,
+  .button.call {
+    box-shadow: none;
+    border: 2px solid rgba(255, 255, 255, 0.65);
+    text-transform: capitalize !important; }
 
 /* Form */
 form {
@@ -2259,6 +2267,14 @@ table.alt tbody tr td {
       #main button.special.icon:before,
       #main .button.special.icon:before {
         color: #ffffff !important; }
+    #main input[type="submit"].call,
+    #main input[type="reset"].call,
+    #main input[type="button"].call,
+    #main button.call,
+    #main .button.call {
+      box-shadow: none;
+      border: 2px solid rgba(255, 255, 255, 0.65);
+      text-transform: capitalize !important; }
   #main label {
     color: #636363; }
   #main input[type="text"],

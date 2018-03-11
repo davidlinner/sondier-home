@@ -1,0 +1,22 @@
+{
+  "name": "sondier-home",
+  "version": "1.0.0",
+  "description": "Sondier.ai home page",
+  "main": "index.html",
+  "scripts": {
+    "sass": "./node_modules/.bin/node-sass ./assets/sass -o ./assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlinner/sondier-home.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidlinner/sondier-home/issues"
+  },
+  "homepage": "https://github.com/davidlinner/sondier-home#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
