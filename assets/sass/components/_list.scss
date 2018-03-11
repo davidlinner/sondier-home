@@ -175,14 +175,14 @@
 		&.alt {
 			dt {
 				display: block;
-				width: 3em;
 				margin: 0;
 				clear: left;
 				float: left;
+				padding-right: .5em;
 			}
 
 			dd {
-				margin: 0 0 0.85em 5.5em;
+				//margin: 0 0 0.85em 5.5em;
 			}
 
 			&:after {
