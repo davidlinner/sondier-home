@@ -9,7 +9,7 @@
 	#header {
 		@include padding(5em, 5em, (0, 0, -2em, 0));
 		text-align: center;
-		min-height: 80vh;
+		min-height: 60vh;
 
 		h1 {
 			margin: 0 0 (_size(element-margin) * 0.125) 0;
